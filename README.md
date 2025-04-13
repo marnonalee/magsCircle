@@ -1,12 +1,29 @@
-# React + Vite
+# Mag's Circle – Team Portfolio (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-page portfolio website built with **React** and **Vite** to showcase our team members, skills, and featured projects. Designed with simplicity, responsiveness, and interactivity in mind using Tailwind CSS and Framer Motion.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Single-page layout with smooth navigation
+- Introduction and About sections
+- Interactive Team Members showcase
+- Project section with screenshots
+- Contact information
+- Responsive design using Tailwind CSS
+- Animations powered by Framer Motion
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+## Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/magsCircle.git
+cd magsCircle
+npm install
