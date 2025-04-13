@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaPython } from "react-icons/fa";
@@ -13,7 +14,9 @@ import img5 from '../assets/cafe5.png';
 
 const Project_1 = () => {
   const navigate = useNavigate();
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-gradient-to-r from-purple-500 to-pink-300 flex flex-col items-center justify-center min-h-screen">
       
@@ -101,10 +104,11 @@ const Project_1 = () => {
         </div>
 
         <div className="mt-20 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Want a seamless booking system like this?</h2>
-          <p className="text-lg text-white mb-6">
-            Get in touch today to create your custom website with seamless booking and efficient salon management. We bring your salon business online with the latest technology and beautiful design.
-          </p>
+        <h2 className="text-3xl font-bold text-white mb-4">Want a seamless ordering system like this?</h2>
+        <p className="text-lg text-white mb-6">
+          Get in touch today to build your custom café website with a smooth ordering experience and efficient menu management. Bring your café business online with intuitive design and modern technology.
+        </p>
+
           <button
             onClick={() => window.location.href = "mailto:mmaagscircle@gmail.com"}
             className="px-14 mb-11 py-3 bg-yellow-600 text-white text-lg rounded-full shadow-lg hover:bg-yellow-700 transition duration-300">

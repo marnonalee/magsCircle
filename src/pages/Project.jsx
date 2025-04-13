@@ -1,5 +1,6 @@
-import React from 'react';
+
 import { ArrowLeft } from 'lucide-react';
+import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaPython, FaHtml5, FaCss3Alt } from "react-icons/fa";
@@ -9,7 +10,9 @@ import portfolioImg4 from '../assets/salon.png';
 
 const Project = () => {
   const navigate = useNavigate();
-
+useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const projects = [
     { 
       img: portfolioImg1, 

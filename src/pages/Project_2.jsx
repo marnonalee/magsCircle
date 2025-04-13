@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import portfolioImg1 from '../assets/salonHero.png';
@@ -13,6 +14,9 @@ import { ArrowLeft } from "lucide-react";
 
 const Project_2 = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="bg-gradient-to-r from-purple-500 to-pink-300 flex flex-col items-center justify-center min-h-screen">

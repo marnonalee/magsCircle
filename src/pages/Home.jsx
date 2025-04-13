@@ -21,7 +21,7 @@ const Home = () => {
   const [isAboutUsInView, setIsAboutUsInView] = useState(false);
 
   const [overlayOpacity, setOverlayOpacity] = useState(0);
-
+ 
   
  useEffect(() => {
   const handleScroll = () => {
@@ -288,7 +288,7 @@ const teamMembers = [
       <section id="team" className="relative overflow-hidden pb-8 z-10">
         <div className="relative w-full z-10 text-center">
           <h1 className="text-7xl font-playfair font-bold text-white drop-shadow-lg tracking-wide">
-            Our <span className="text-purple-500 ">Expertise</span>
+            Our <span className="text-purple-500 ">Creators</span>
           </h1>
           <p className="text-white text-lg mt-3 mb-12 font-roboto">
             The minds behind our innovations.
