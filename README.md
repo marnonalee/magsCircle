@@ -1,6 +1,6 @@
 # Mag's Circle – Team Portfolio (React + Vite)
 
-A single-page portfolio website built with **React** and **Vite** to showcase our team members, skills, and featured projects. Designed with simplicity, responsiveness, and interactivity in mind using Tailwind CSS and Framer Motion.
+A single-page portfolio website built with React and Vite to showcase our team members, skills, and featured projects. Designed with simplicity, responsiveness, and interactivity in mind using Tailwind CSS and Framer Motion.
 
 ## Features
 
