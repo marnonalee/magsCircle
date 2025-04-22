@@ -3,7 +3,7 @@ import { Box, Container, Grid, Typography } from '@mui/material';
 import { motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FaPaperPlane, FaGithub , FaDesktop, FaMobileAlt, FaSearch, FaFacebook  } from "react-icons/fa";
-import logo_mo from "../assets/logo.png";
+import logo_mo from "../assets/logo1.png";
 import missionImg from "../assets/mission.jpg";
 import visionImg from "../assets/vision.jpg";
 import { MdEmail } from "react-icons/md";
