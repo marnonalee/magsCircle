@@ -1,3 +1,4 @@
+
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
@@ -5,6 +6,7 @@ import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Project_1 from "./pages/Project_1";
 import Project_2 from "./pages/Project_2";
+import Project_3 from "./pages/Project_3";
 
 function App() {
   const location = useLocation();
@@ -28,6 +30,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/project_1" element={<Project_1 />} />
         <Route path="/project_2" element={<Project_2 />} />
+        <Route path="/project_3" element={<Project_3 />} />
       </Routes>
     </div>
   );
