@@ -7,6 +7,7 @@ import { FaPython, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import portfolioImg1 from '../assets/cafe.png'; 
 import portfolioImg4 from '../assets/salon.png'; 
+import portfolioImg5 from '../assets/attendance.png'; 
 
 const Project = () => {
   const navigate = useNavigate();
@@ -35,6 +36,17 @@ useEffect(() => {
           <FaHtml5 className="text-red-500 text-5xl" />
           <FaCss3Alt className="text-blue-500 text-5xl" />
           <SiTailwindcss className="text-teal-400 text-5xl" />
+        </div>
+      )
+    },
+    { 
+      img: portfolioImg5, 
+      title: 'EPICORA UNI TEACHER ATTENDANCE SYSTEM', 
+      description: 'Developed using Java Swing and MySQL, this system allows administrators to manage teacher records adding, updating, and deleting entries while enabling users to submit and view their attendance.',
+      link: '/project_3',
+      icon: (
+        <div className="flex flex-row items-center gap-4 mt-4">
+          <FaPython className="text-yellow-400 text-6xl" />
         </div>
       )
     }
@@ -84,7 +96,8 @@ useEffect(() => {
          />
          <p className="mt-6 text-3xl font-bold text-gray-900 dark:text-gray-100 text-center font-montserrat">{project.title}</p>
          <p className="mt-4 text-gray-700 dark:text-gray-700 text-center max-w-md font-roboto">{project.description}</p>
-         {project.icon && project.icon}
+         {project.icon}
+
          <p className="mt-4 text-black font-semibold underline underline-offset-4 hover:text-white transition-colors">
            See Project →
          </p>
