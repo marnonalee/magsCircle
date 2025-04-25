@@ -3,7 +3,7 @@ import { ArrowLeft } from 'lucide-react';
 import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaPython, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { FaPython, FaHtml5, FaCss3Alt, FaJava } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import portfolioImg1 from '../assets/cafe.png'; 
 import portfolioImg4 from '../assets/salon.png'; 
@@ -46,7 +46,7 @@ useEffect(() => {
       link: '/project_3',
       icon: (
         <div className="flex flex-row items-center gap-4 mt-4">
-          <FaPython className="text-yellow-400 text-6xl" />
+          <FaJava className="text-red-500 text-6xl" />
         </div>
       )
     }

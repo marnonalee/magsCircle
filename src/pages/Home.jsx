@@ -3,7 +3,7 @@ import { Box, Container, Grid, Typography } from '@mui/material';
 import { motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FaPaperPlane, FaGithub , FaDesktop, FaMobileAlt, FaSearch, FaFacebook  } from "react-icons/fa";
-import logo_mo from "../assets/logo1.png";
+import logo_mo from "../assets/logo2.png";
 import missionImg from "../assets/mission.jpg";
 import visionImg from "../assets/vision.jpg";
 import { MdEmail } from "react-icons/md";
@@ -58,7 +58,7 @@ const teamMembers = [
     role: "Project Manager, Frontend Developer", 
     img: img2,
     email: "mylsmrlt@gmail.com",
-    skills: ["System Testing","HTML","CSS","Frontend Development (HTML/CSS)","Wireframing","Figma","Basic C++","Basic MySQL"],
+    skills: ["System Testing","HTML","CSS","Frontend Development (HTML/CSS)","Wireframing","Figma","Basic MySQL"],
     facebook: "https://www.facebook.com/myles.maralit",
     github: "https://github.com/marnonalee",  
     expertise: "Capable of testing systems, building frontend interfaces using HTML and CSS, and designing user flows through wireframing and Figma. Has foundational knowledge in C++ and MySQL, supporting a versatile development skillset."
