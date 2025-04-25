@@ -10,6 +10,7 @@ import img2 from '../assets/cafe2.png';
 import img3 from '../assets/cafe3.png'; 
 import img4 from '../assets/cafe4.png'; 
 import img5 from '../assets/cafe5.png'; 
+import certImg from '../assets/award.jpg';
 
 
 const Project_1 = () => {
@@ -51,11 +52,17 @@ const Project_1 = () => {
           </div>
 
           <div className="mb-8">
-            <h2 className="text-xl font-bold text-white">Award Recognition</h2>
-            <p className="text-lg text-white">
+            <h2 className="text-xl font-bold text-black">Award Recognition</h2>
+            <p className="text-lg text-black mb-4">
               We're proud to announce that the Mauc Cafe Simple Ordering System has been recognized as the "Best System" in the subject DCIT 23A on July 24, 2023 for its innovative design and seamless user experience.
             </p>
+            <img 
+              src={certImg} 
+              alt="Award Certificate" 
+              className="w-64 rounded shadow-md"
+            />
           </div>
+
           <hr className="border-gray-300 mb-8" />
 
           <div>

@@ -78,15 +78,15 @@ useEffect(() => {
         Explore our innovative projects designed to streamline business operations and enhance user experience. Each project showcases our commitment to efficiency, usability, and modern design.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 z-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 z-10 max-w-6xl mx-auto">
         {projects.map((project, index) => (
          <motion.div
          key={index}
-         className="flex flex-col items-center p-8 rounded-lg shadow-xl transform transition-all font-merriweather bg-white/10 backdrop-blur-md hover:scale-110 hover:bg-white/20 cursor-pointer"
+         className="flex flex-col items-center p-6 rounded-lg shadow-xl transform transition-all font-merriweather bg-white/10 backdrop-blur-md hover:scale-110 hover:bg-white/20 cursor-pointer"
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: index * 0.2 }}
-         whileHover={{ scale: 1.1 }}
+         whileHover={{ scale: 1.03 }}
          onClick={() => navigate(project.link)}
        >
          <img 

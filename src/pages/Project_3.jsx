@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import portfolioImg1 from '../assets/attendanceHero.png';
-import { SiTailwindcss } from "react-icons/si";
 import { FaJava } from 'react-icons/fa';
 import img1 from '../assets/attendance1.png'; 
 import img2 from '../assets/attendance2.png'; 
@@ -65,7 +64,7 @@ onClick={() => navigate(-1)}>
         <div className="w-full flex justify-center mt-20 mb-20">
           <img
             alt="Website Preview"
-            className="w-[900px] h-[500px] rounded-lg shadow-lg border-4 border-white"
+            className="w-[900px] h-auto rounded-lg shadow-lg border-4 border-white"
             src={img1}/>
         </div>
         <div className="w-full flex justify-center mt-20 mb-20">
